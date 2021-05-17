@@ -1,0 +1,17 @@
+{
+  "name": "cuarta-pre-entrega",
+  "version": "1.0.0",
+  "description": "sitio web cuarta pre entrega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/sassStyle.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Christian Gauna",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
