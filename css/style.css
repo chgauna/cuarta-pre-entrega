@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -96,3 +97,5 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+
+/*font montserrat*/
