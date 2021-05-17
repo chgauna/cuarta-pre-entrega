@@ -1,4 +1,4 @@
-/*grillas mobile first*/
+/*grilla mobile first home*/
 
 .contenedorHome{
     display: grid;
@@ -14,3 +14,11 @@
     grid-area: infoHome;
 }
 
+/*grilla responsive desktop*/
+@media screen and (min-width:768px){
+    .contenedorHome{
+        display: grid;
+        grid-template-areas: "infoHome imagenHome imagenHome"
+                             "infoHome imagenHome imagenHome";
+    }
+}

@@ -40,3 +40,36 @@
     font-size: 1.2rem;
     color: white;
 }
+
+/* responsive desktop*/
+
+@media screen and (min-width:768px){
+    .imagenHome{
+        background-color: $rosa;
+        width: 100%;
+        height: 100vh;
+        margin-right: 0;
+    }
+
+    .tituloHome{
+        color: $rosa;
+        font-size: 2.5rem;
+        text-align: left;
+        margin-top: 150px;
+        width: 400px;
+        margin-left: 150px;
+    }
+
+    .textoHome{
+        margin-left: 150px;
+        margin-top: 30px;
+        font-size: 1.3rem;
+    }
+    .botonHome{
+        width: 80px;
+        height: 40px;
+        margin-left: 150px;
+        margin-top: 25px;
+    }
+    
+}

@@ -104,7 +104,7 @@ nav {
 /*font montserrat*/
 /*font barlow*/
 /*font roboto*/
-/*grillas mobile first*/
+/*grilla mobile first home*/
 .contenedorHome {
   display: grid;
   grid-template-areas: "imagenHome" "infoHome"; }
@@ -114,6 +114,12 @@ nav {
 
 .infoHome {
   grid-area: infoHome; }
+
+/*grilla responsive desktop*/
+@media screen and (min-width: 768px) {
+  .contenedorHome {
+    display: grid;
+    grid-template-areas: "infoHome imagenHome imagenHome" "infoHome imagenHome imagenHome"; } }
 
 /*mobile first*/
 .imagenHome {
@@ -152,3 +158,27 @@ nav {
 .botonHome a {
   font-size: 1.2rem;
   color: white; }
+
+/* responsive desktop*/
+@media screen and (min-width: 768px) {
+  .imagenHome {
+    background-color: #BF3056;
+    width: 100%;
+    height: 100vh;
+    margin-right: 0; }
+  .tituloHome {
+    color: #BF3056;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-top: 150px;
+    width: 400px;
+    margin-left: 150px; }
+  .textoHome {
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 1.3rem; }
+  .botonHome {
+    width: 80px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 25px; } }
