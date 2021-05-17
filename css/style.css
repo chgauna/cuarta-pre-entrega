@@ -1,5 +1,8 @@
+/*paleta de colores*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -99,3 +102,53 @@ nav {
   background-position: center; }
 
 /*font montserrat*/
+/*font barlow*/
+/*font roboto*/
+/*grillas mobile first*/
+.contenedorHome {
+  display: grid;
+  grid-template-areas: "imagenHome" "infoHome"; }
+
+.imagenHome {
+  grid-area: imagenHome; }
+
+.infoHome {
+  grid-area: infoHome; }
+
+/*mobile first*/
+.imagenHome {
+  background-color: #BF3056;
+  width: 100%;
+  height: 30vh; }
+
+.tituloHome {
+  font-family: 'Barlow', sans-serif;
+  color: #BF3056;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-top: 30px; }
+
+.textoHome {
+  font-family: 'Roboto', sans-serif;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #213A40; }
+
+.botonHome {
+  width: 80px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 25px;
+  background-color: #D98859;
+  margin-bottom: 50px;
+  border: 0;
+  border-radius: 5px; }
+
+.botonHome:hover {
+  background-color: #BF3056; }
+
+.botonHome a {
+  font-size: 1.2rem;
+  color: white; }

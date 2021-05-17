@@ -1,0 +1,16 @@
+/*grillas mobile first*/
+
+.contenedorHome{
+    display: grid;
+    grid-template-areas: "imagenHome"
+                         "infoHome";
+}
+
+.imagenHome{
+    grid-area: imagenHome;
+}
+
+.infoHome{
+    grid-area: infoHome;
+}
+
