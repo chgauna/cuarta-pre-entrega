@@ -86,3 +86,22 @@
     }
 
 }
+
+/*grillas contacto responsive*/
+
+@media screen and (min-width:768px){
+    .contenedorContacto{
+        display: grid;
+        grid-template-areas: "infoContacto imagenContacto imagenContacto"                    
+                             "formularioContacto imagenContacto imagenContacto";
+    }
+    .infoContacto{
+        grid-area: infoContacto;
+    }
+    .imagenContacto{
+        grid-area: imagenContacto;
+    }
+    .formularioContacto{
+        grid-area: formularioContacto;
+    }
+}
