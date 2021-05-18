@@ -26,15 +26,27 @@
 /* grilla sobre mi mobile first*/
 
 .contenedorSobreMi{
+    height: 100vh;
     display: grid;
-    grid-template-areas: "imagenHome"
-                         "infoHome";
+    grid-template-areas: "imagenSobreMi"
+                         "infoSobreMi";
 }
 
 .imagenSobreMi{
-    grid-area: imagenHome;
+    grid-area: imagenSobreMi;
 }
 
 .infoSobreMi{
-    grid-area: infoHome;
+    grid-area: infoSobreMi;
+}
+
+/*grilla sobre mi responsive desktop*/ 
+
+@media screen and (min-width:768px){
+    .contenedorSobreMi{
+        display: grid;
+        grid-template-areas: "infoSobreMi imagenSobreMi imagenSobreMi"
+                             "infoSobreMi imagenSobreMi imagenSobreMi";
+}
+
 }

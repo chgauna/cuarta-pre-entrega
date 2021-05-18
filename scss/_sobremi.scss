@@ -30,6 +30,7 @@
     margin-bottom: 50px;
     border:0;
     border-radius: 5px;
+    padding: 10px 15px 10px 15px;
 }
 .botonSobreMi:hover{
     background-color: $celeste;
@@ -37,4 +38,35 @@
 .botonSobreMi a{
     font-size: 1.1rem;
     color: white;
+}
+/* responsive desktop sobre mi*/
+
+@media screen and (min-width:768px){
+    .imagenSobreMi{
+        background-color: $rosa;
+        width: 100%;
+        height: 100vh;
+        margin-right: 0;
+    }
+
+    .tituloSobreMi{
+        font-size: 2.7rem;
+        text-align: left;
+        margin-top: 150px;
+        width: 400px;
+        margin-left: 150px;
+    }
+
+    .textoSobreMi{
+        margin-left: 150px;
+        margin-top: 30px;
+        font-size: 1.3rem;
+    }
+    .botonSobreMi{
+        width: 80px;
+        height: 40px;
+        margin-left: 150px;
+        margin-top: 25px;
+    }
+    
 }
