@@ -1,0 +1,86 @@
+/* contacto mobile first*/
+
+.imagencontacto{
+    background-color: $rosa;
+    width: 100%;
+    height: 30vh;
+}
+
+.infoContacto{
+    height: 180px;
+    margin-left: 100px;
+}
+.infoContacto p{
+    margin-top: 10px;
+    color: $azul;
+}
+
+.formularioContacto{
+    height: 350px;
+    margin-left: 100px;
+}
+
+.tituloCorreo{
+    font-family: 'Barlow', sans-serif;
+    color: $rosa;
+    font-size: 1.6rem;
+    margin-top: 30px;
+}
+
+.tituloRedes{
+    font-family: 'Barlow', sans-serif;
+    color: $naranja;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    
+}
+
+.tituloFormulario{
+    font-family: 'Barlow', sans-serif;
+    color: $celeste;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.redUno img{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.redUno img:hover{
+    height: 33px;
+    width: 33px;
+}
+.redDos img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.redDos img:hover{
+    height: 33px;
+    width: 33px;
+}
+.redTres img{
+    height: 30px;
+    width: 30px;
+}
+.redTres img:hover{
+    height: 33px;
+    width: 33px;
+}
+
+form button{
+    width: 60px;
+    height: 30px;
+    background-color: $celeste;
+    border:0;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+form button:hover{
+    background-color: $rosa;
+}

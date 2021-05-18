@@ -11,6 +11,7 @@
     <title>Contacto | Christian Gauna</title>
 </head>
 <body>
+    <!-- barra de navegacion -->
     <header>
         <nav>
             <div>
@@ -28,5 +29,42 @@
             </ul>
         </nav>
     </header>
+    <!-- seccion contacto -->
+<div class="contenedorContacto">
+    <section class="imagencontacto">
+    </section>
+    <section class="infoContacto">
+        <h2 class="tituloCorreo">Correo electrónico</h2>
+        <p>Chgauna@hotmail.com</p>
+        <h3 class="tituloRedes">Mis redes</h3>
+        <div>
+            <a href="#" class="redUno"><img src="../img/icon-ig.svg" alt="logo instagram"></a>
+            <a href="#" class="redDos"><img src="../img/icon-be.svg" alt="logo behance"></a>
+            <a href="#" class="redTres"><img src="../img/icon-git.svg" alt="logo github"></a>
+        </div>
+    </section>
+    <!-- formulario de contacto -->
+    <section class="formularioContacto">
+        <h1 class="tituloFormulario">Formulario de contacto</h1>
+        <form action="" method="get">
+            <div>
+                <label for="name">Nombre</label>
+                <input id="name" name="name" type="text">
+             </div>
+             <div>
+                <label for="last-name">Apellido</label>
+                <input id="last-name" name="last-name" type="text">
+             </div>
+             <div>
+                <label for="correo-electronico">Correo electrónico</label>
+                <input id="correo-electronico" name="correo-electronico" type="email">
+             </div>
+             <div>
+                <textarea name="" id="texto" cols="30" rows="10"></textarea>
+             </div>
+             <button type="submit">Enviar</button>
+        </form>
+    </section>
+</div>
 </body>
 </html>
