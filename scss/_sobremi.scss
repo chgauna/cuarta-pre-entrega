@@ -1,0 +1,40 @@
+.imagenSobreMi{
+    background-color: $naranja;
+    width: 100%;
+    height: 30vh;
+}
+
+.tituloSobreMi{
+    font-family: 'Barlow', sans-serif;
+    color: $celeste;
+    font-size: 2.2rem;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.textoSobreMi{
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: $azul;
+    margin-bottom: 50px;
+}
+
+.botonSobreMi{
+    width: 100px;
+    height: 60px;
+    margin-left: 110px;
+    background-color: $rosa;
+    margin-bottom: 50px;
+    border:0;
+    border-radius: 5px;
+}
+.botonSobreMi:hover{
+    background-color: $celeste;
+}
+.botonSobreMi a{
+    font-size: 1.1rem;
+    color: white;
+}

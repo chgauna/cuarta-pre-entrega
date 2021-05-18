@@ -22,3 +22,19 @@
                              "infoHome imagenHome imagenHome";
     }
 }
+
+/* grilla sobre mi mobile first*/
+
+.contenedorSobreMi{
+    display: grid;
+    grid-template-areas: "imagenHome"
+                         "infoHome";
+}
+
+.imagenSobreMi{
+    grid-area: imagenHome;
+}
+
+.infoSobreMi{
+    grid-area: infoHome;
+}

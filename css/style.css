@@ -1,6 +1,5 @@
 /*paleta de colores*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
@@ -121,6 +120,17 @@ nav {
     display: grid;
     grid-template-areas: "infoHome imagenHome imagenHome" "infoHome imagenHome imagenHome"; } }
 
+/* grilla sobre mi mobile first*/
+.contenedorSobreMi {
+  display: grid;
+  grid-template-areas: "imagenHome" "infoHome"; }
+
+.imagenSobreMi {
+  grid-area: imagenHome; }
+
+.infoSobreMi {
+  grid-area: infoHome; }
+
 /*mobile first*/
 .imagenHome {
   background-color: #BF3056;
@@ -147,7 +157,7 @@ nav {
   height: 40px;
   margin-left: 100px;
   margin-top: 25px;
-  background-color: #D98859;
+  background-color: #0097a7;
   margin-bottom: 50px;
   border: 0;
   border-radius: 5px; }
@@ -168,7 +178,7 @@ nav {
     margin-right: 0; }
   .tituloHome {
     color: #BF3056;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     text-align: left;
     margin-top: 150px;
     width: 400px;
@@ -182,3 +192,40 @@ nav {
     height: 40px;
     margin-left: 150px;
     margin-top: 25px; } }
+
+.imagenSobreMi {
+  background-color: #D98859;
+  width: 100%;
+  height: 30vh; }
+
+.tituloSobreMi {
+  font-family: 'Barlow', sans-serif;
+  color: #0097a7;
+  font-size: 2.2rem;
+  margin-left: 110px;
+  margin-top: 30px; }
+
+.textoSobreMi {
+  font-family: 'Roboto', sans-serif;
+  width: 300px;
+  margin-left: 110px;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #213A40;
+  margin-bottom: 50px; }
+
+.botonSobreMi {
+  width: 100px;
+  height: 60px;
+  margin-left: 110px;
+  background-color: #BF3056;
+  margin-bottom: 50px;
+  border: 0;
+  border-radius: 5px; }
+
+.botonSobreMi:hover {
+  background-color: #0097a7; }
+
+.botonSobreMi a {
+  font-size: 1.1rem;
+  color: white; }
