@@ -142,7 +142,7 @@ nav {
 /*grilla servicios mobile first*/
 .contenedorServicios {
   display: grid;
-  grid-template-areas: "imagenDiseño imagenDiseño" "InfoDiseño infoDiseño" "imagenDesarrollo imagenDesarrollo" "InfoDesarrollo infoDesarrollo"; }
+  grid-template-areas: "imagenDiseño imagenDiseño" "infoDiseño infoDiseño" "imagenDesarrollo imagenDesarrollo" "infoDesarrollo infoDesarrollo"; }
 
 .infoDiseño {
   grid-area: infoDiseño; }
@@ -155,6 +155,12 @@ nav {
 
 .imagenDesarrollo {
   grid-area: imagenDesarrollo; }
+
+/*grillas servicios responsive*/
+@media screen and (min-width: 768px) {
+  .contenedorServicios {
+    display: grid;
+    grid-template-areas: "infoDiseño imagenDiseño imagenDiseño"                     "infoDesarrollo imagenDesarrollo imagenDesarrollo"; } }
 
 /*mobile first*/
 .imagenHome {
@@ -300,12 +306,12 @@ nav {
   color: #BF3056;
   font-size: 2.2rem;
   margin-top: 30px;
-  margin-left: 70px; }
+  margin-left: 100px; }
 
 .textoDiseño {
   font-family: 'Roboto', sans-serif;
   width: 300px;
-  margin-left: 70px;
+  margin-left: 100px;
   margin-top: 30px;
   font-size: 1.2rem;
   color: #213A40; }
@@ -315,4 +321,61 @@ nav {
   color: #0097a7;
   font-size: 2.2rem;
   margin-top: 30px;
-  margin-left: 70px; }
+  margin-left: 100px; }
+
+.botonDiseño {
+  width: 100px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 25px;
+  background-color: #0097a7;
+  margin-bottom: 50px;
+  border: 0;
+  border-radius: 5px; }
+
+.botonDiseño:hover {
+  background-color: #BF3056; }
+
+.botonDiseño a {
+  font-size: 1rem;
+  color: white; }
+
+.botonDesarrollo {
+  width: 100px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 25px;
+  background-color: #BF3056;
+  margin-bottom: 50px;
+  border: 0;
+  border-radius: 5px; }
+
+.botonDesarrollo:hover {
+  background-color: #0097a7; }
+
+.botonDesarrollo a {
+  font-size: 1rem;
+  color: white; }
+
+/*servicios responsive*/
+@media screen and (min-width: 768px) {
+  .imagenDiseño {
+    background-color: #BF3056;
+    height: 300px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); }
+  .imagenDesarrollo {
+    background-color: #0097a7;
+    height: 300px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); } }

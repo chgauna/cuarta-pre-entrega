@@ -56,9 +56,9 @@
 .contenedorServicios{
     display: grid;
     grid-template-areas: "imagenDiseño imagenDiseño"
-                         "InfoDiseño infoDiseño"
+                         "infoDiseño infoDiseño"
                          "imagenDesarrollo imagenDesarrollo"
-                         "InfoDesarrollo infoDesarrollo";
+                         "infoDesarrollo infoDesarrollo";
 }
 
 .infoDiseño{
@@ -74,4 +74,15 @@
 
 .imagenDesarrollo{
     grid-area: imagenDesarrollo ;
+}
+
+/*grillas servicios responsive*/
+
+@media screen and (min-width:768px){
+    .contenedorServicios{
+        display: grid;
+        grid-template-areas: "infoDiseño imagenDiseño imagenDiseño"                    
+                             "infoDesarrollo imagenDesarrollo imagenDesarrollo";
+    }
+
 }
