@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*paleta de colores*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
@@ -138,6 +139,23 @@ nav {
     display: grid;
     grid-template-areas: "infoSobreMi imagenSobreMi imagenSobreMi" "infoSobreMi imagenSobreMi imagenSobreMi"; } }
 
+/*grilla servicios mobile first*/
+.contenedorServicios {
+  display: grid;
+  grid-template-areas: "imagenDiseño imagenDiseño" "InfoDiseño infoDiseño" "imagenDesarrollo imagenDesarrollo" "InfoDesarrollo infoDesarrollo"; }
+
+.infoDiseño {
+  grid-area: infoDiseño; }
+
+.imagenDiseño {
+  grid-area: imagenDiseño; }
+
+.infoDesarrollo {
+  grid-area: infoDesarrollo; }
+
+.imagenDesarrollo {
+  grid-area: imagenDesarrollo; }
+
 /*mobile first*/
 .imagenHome {
   background-color: #BF3056;
@@ -148,7 +166,7 @@ nav {
   font-family: 'Barlow', sans-serif;
   color: #BF3056;
   font-size: 2.2rem;
-  text-align: center;
+  margin-left: 100px;
   margin-top: 30px; }
 
 .textoHome {
@@ -259,3 +277,42 @@ nav {
     height: 40px;
     margin-left: 150px;
     margin-top: 25px; } }
+
+/*servicios mobile first*/
+.imagenDiseño {
+  width: 100%;
+  height: 200px;
+  background-color: #BF3056; }
+
+.imagenDesarrollo {
+  width: 100%;
+  height: 200px;
+  background-color: #0097a7; }
+
+.infoDiseño {
+  height: 300px; }
+
+.infoDesarrollo {
+  height: 300px; }
+
+.tituloDiseño {
+  font-family: 'Barlow', sans-serif;
+  color: #BF3056;
+  font-size: 2.2rem;
+  margin-top: 30px;
+  margin-left: 70px; }
+
+.textoDiseño {
+  font-family: 'Roboto', sans-serif;
+  width: 300px;
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #213A40; }
+
+.tituloDesarrollo {
+  font-family: 'Barlow', sans-serif;
+  color: #0097a7;
+  font-size: 2.2rem;
+  margin-top: 30px;
+  margin-left: 70px; }

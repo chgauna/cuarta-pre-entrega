@@ -1,0 +1,45 @@
+/*servicios mobile first*/
+
+.imagenDiseño{
+    width: 100%;
+    height: 200px;
+    background-color: $rosa;
+}
+
+.imagenDesarrollo{
+    width: 100%;
+    height: 200px;
+    background-color: $celeste;
+}
+.infoDiseño{
+    height: 300px;
+}
+
+.infoDesarrollo{
+   height: 300px;
+}
+
+.tituloDiseño{
+    font-family: 'Barlow', sans-serif;
+    color: $rosa;
+    font-size: 2.2rem;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.textoDiseño{
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: $azul;
+}
+
+.tituloDesarrollo{
+    font-family: 'Barlow', sans-serif;
+    color: $celeste;
+    font-size: 2.2rem;
+    margin-top: 30px;
+    margin-left: 70px;
+}

@@ -50,3 +50,28 @@
 }
 
 }
+
+/*grilla servicios mobile first*/
+
+.contenedorServicios{
+    display: grid;
+    grid-template-areas: "imagenDiseño imagenDiseño"
+                         "InfoDiseño infoDiseño"
+                         "imagenDesarrollo imagenDesarrollo"
+                         "InfoDesarrollo infoDesarrollo";
+}
+
+.infoDiseño{
+    grid-area:infoDiseño ;
+}
+.imagenDiseño{
+    grid-area: imagenDiseño;
+}
+
+.infoDesarrollo{
+    grid-area: infoDesarrollo;
+}
+
+.imagenDesarrollo{
+    grid-area: imagenDesarrollo ;
+}
