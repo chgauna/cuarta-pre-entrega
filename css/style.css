@@ -174,6 +174,42 @@ nav {
   .formularioContacto {
     grid-area: formularioContacto; } }
 
+/* grillas portfolio desktop*/
+@media screen and (min-width: 768px) {
+  .contenedorPortfolio {
+    display: grid;
+    grid-template-areas: "tituloIlustracion tituloIlustracion" "ilustUno textoIlustracion" "ilustDos ilustTres" "tituloCollage tituloCollage" "collageUno textoCollage" "collageDos collageTres" "tituloBrand tituloBrand" "brandUno textoBrand" "brandDos brandTres"; }
+  .tituloIlustracion {
+    grid-area: tituloIlustracion; }
+  .textoIlustracion {
+    grid-area: textoIlustracion; }
+  .ilustUno {
+    grid-area: ilustUno; }
+  .ilustDos {
+    grid-area: ilustDos; }
+  .ilustTres {
+    grid-area: ilustTres; }
+  .tituloCollage {
+    grid-area: tituloCollage; }
+  .textoCollage {
+    grid-area: textoCollage; }
+  .collageUno {
+    grid-area: collageUno; }
+  .collageDos {
+    grid-area: collageDos; }
+  .collageTres {
+    grid-area: collageTres; }
+  .tituloBrand {
+    grid-area: tituloBrand; }
+  .textoBrand {
+    grid-area: textoBrand; }
+  .brandUno {
+    grid-area: brandUno; }
+  .brandDos {
+    grid-area: brandDos; }
+  .brandTres {
+    grid-area: brandTres; } }
+
 /*mobile first*/
 .imagenHome {
   background-color: #BF3056;
@@ -516,3 +552,176 @@ footer section p {
 
 .redesFooter {
   display: flex; }
+
+/* portfolio mobile first*/
+.tituloIlustracion {
+  font-family: 'Barlow', sans-serif;
+  color: #BF3056;
+  font-size: 1.8rem;
+  margin-left: 20px;
+  margin-top: 30px; }
+
+.tituloCollage {
+  font-family: 'Barlow', sans-serif;
+  color: #0097a7;
+  font-size: 1.8rem;
+  margin-left: 20px;
+  margin-top: 30px; }
+
+.tituloBrand {
+  font-family: 'Barlow', sans-serif;
+  color: #213A40;
+  font-size: 1.8rem;
+  margin-left: 20px;
+  margin-top: 30px; }
+
+.textoIlustracion {
+  font-family: 'Roboto', sans-serif;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #213A40; }
+
+.ilustUno {
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 10px; }
+
+.ilustDos {
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 10px; }
+
+.ilustTres {
+  background-color: #0097a7;
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 15px; }
+
+.collageUno {
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 15px; }
+
+.collageDos {
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 15px; }
+
+.collageTres {
+  background-color: #0097a7;
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 15px; }
+
+.textoCollage {
+  font-family: 'Roboto', sans-serif;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #213A40; }
+
+.brandUno {
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 15px; }
+
+.brandDos {
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 15px; }
+
+.brandTres {
+  background-color: #0097a7;
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 15px; }
+
+.textoBrand {
+  font-family: 'Roboto', sans-serif;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #213A40; }
+
+/* portfolio desktop*/
+@media screen and (min-width: 768px) {
+  .ilustUno {
+    width: 400px;
+    height: 400px;
+    padding-left: 60px; }
+  .ilustDos {
+    width: 400px;
+    height: 400px;
+    padding-left: 60px; }
+  .ilustTres {
+    width: 400px;
+    height: 400px; }
+  .collageUno {
+    width: 400px;
+    height: 400px;
+    padding-left: 60px; }
+  .collageDos {
+    width: 400px;
+    height: 400px;
+    padding-left: 60px; }
+  .collageTres {
+    width: 400px;
+    height: 400px; }
+  .brandUno {
+    width: 400px;
+    height: 400px;
+    padding-left: 60px; }
+  .brandDos {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 45px;
+    padding-left: 60px; }
+  .brandTres {
+    width: 400px;
+    height: 400px; }
+  .tituloIlustracion {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #BF3056;
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px; }
+  .textoIlustracion {
+    margin-top: 140px;
+    font-size: 1.2rem; }
+  .tituloCollage {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    background-color: #0097a7;
+    margin-left: 60px;
+    margin-right: 60px; }
+  .textoCollage {
+    margin-top: 140px;
+    font-size: 1.2rem; }
+  .tituloBrand {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    background-color: #213A40;
+    margin-left: 60px;
+    margin-right: 60px; }
+  .textoBrand {
+    margin-top: 140px;
+    font-size: 1.2rem; } }

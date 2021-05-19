@@ -1,0 +1,216 @@
+/* portfolio mobile first*/ 
+
+.tituloIlustracion{
+    font-family: 'Barlow', sans-serif;
+    color: $rosa;
+    font-size: 1.8rem;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.tituloCollage{
+    font-family: 'Barlow', sans-serif;
+    color: $celeste;
+    font-size: 1.8rem;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.tituloBrand{
+    font-family: 'Barlow', sans-serif;
+    color: $azul;
+    font-size: 1.8rem;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.textoIlustracion{
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: $azul;
+}
+
+.ilustUno{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ilustDos{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ilustTres{
+    background-color: $celeste;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.collageUno{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.collageDos{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.collageTres{
+    background-color: $celeste;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.textoCollage{
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: $azul;
+}
+
+.brandUno{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.brandDos{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.brandTres{
+    background-color: $celeste;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.textoBrand{
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: $azul;
+}
+
+/* portfolio desktop*/ 
+@media screen and (min-width:768px){
+    .ilustUno{
+        width: 400px;
+        height: 400px;
+        padding-left: 60px;
+    }
+    .ilustDos{
+        width: 400px;
+        height: 400px;
+        padding-left: 60px;
+    }
+
+    .ilustTres{
+        width: 400px;
+        height: 400px;
+    }
+
+    .collageUno{
+        width: 400px;
+        height: 400px;
+        padding-left: 60px;
+    }
+    .collageDos{
+        width: 400px;
+        height: 400px;
+        padding-left: 60px;
+    }
+
+    .collageTres{
+        width: 400px;
+        height: 400px;
+    }
+
+    .brandUno{
+        width: 400px;
+        height: 400px;
+        padding-left: 60px;
+    }
+    .brandDos{
+        width: 400px;
+        height: 400px;
+        margin-bottom: 45px;
+        padding-left: 60px;
+    }
+
+    .brandTres{
+        width: 400px;
+        height: 400px;
+    }
+
+    .tituloIlustracion{
+
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 30px;
+        background-color: $rosa;
+        color: white;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .textoIlustracion{
+        margin-top: 140px;
+        font-size: 1.2rem;
+    }
+
+    .tituloCollage{
+        font-size: 2.5rem;
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        background-color: $celeste;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .textoCollage{
+        margin-top: 140px;
+        font-size: 1.2rem;
+    }
+
+    .tituloBrand{
+        font-size: 2.5rem;
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        background-color: $azul;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .textoBrand{
+        margin-top: 140px;
+        font-size: 1.2rem;
+    }
+}

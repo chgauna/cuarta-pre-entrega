@@ -105,3 +105,66 @@
         grid-area: formularioContacto;
     }
 }
+
+/* grillas portfolio desktop*/
+
+@media screen and (min-width:768px){
+    .contenedorPortfolio{
+        display: grid;
+        grid-template-areas: "tituloIlustracion tituloIlustracion"
+                             "ilustUno textoIlustracion"
+                             "ilustDos ilustTres"
+                             "tituloCollage tituloCollage"
+                             "collageUno textoCollage"
+                             "collageDos collageTres"
+                             "tituloBrand tituloBrand"
+                             "brandUno textoBrand"
+                             "brandDos brandTres";
+        }
+        .tituloIlustracion{
+            grid-area: tituloIlustracion;
+        }
+        .textoIlustracion{
+            grid-area: textoIlustracion;
+        }
+        .ilustUno{
+            grid-area: ilustUno;
+        }
+        .ilustDos{
+            grid-area: ilustDos;
+        }
+        .ilustTres{
+            grid-area: ilustTres;
+        }
+        .tituloCollage{
+            grid-area: tituloCollage;
+        }
+        .textoCollage{
+            grid-area: textoCollage;
+        }
+        .collageUno{
+            grid-area: collageUno;
+        }
+        .collageDos{
+            grid-area: collageDos;
+        }
+        .collageTres{
+            grid-area: collageTres;
+        }
+        
+        .tituloBrand{
+            grid-area: tituloBrand;
+        }
+        .textoBrand{
+            grid-area: textoBrand;
+        }
+        .brandUno{
+            grid-area: brandUno;
+        }
+        .brandDos{
+            grid-area: brandDos;
+        }
+        .brandTres{
+            grid-area: brandTres;
+        }
+    }
