@@ -48,7 +48,6 @@
 }
 
 .ilustTres{
-    background-color: $celeste;
     height: 200px;
     width: 200px;
     margin-left: 20px;
@@ -56,14 +55,12 @@
 }
 
 .collageUno{
-    height: 200px;
     width: 200px;
     margin-left: 20px;
     margin-top: 15px;
 }
 
 .collageDos{
-    height: 200px;
     width: 200px;
     margin-left: 20px;
     margin-top: 15px;
@@ -71,7 +68,6 @@
 
 .collageTres{
     background-color: $celeste;
-    height: 200px;
     width: 200px;
     margin-left: 20px;
     margin-top: 15px;
@@ -87,22 +83,18 @@
 }
 
 .brandUno{
-    height: 200px;
     width: 200px;
     margin-left: 20px;
     margin-top: 15px;
 }
 
 .brandDos{
-    height: 200px;
     width: 200px;
     margin-left: 20px;
     margin-top: 15px;
 }
 
 .brandTres{
-    background-color: $celeste;
-    height: 200px;
     width: 200px;
     margin-left: 20px;
     margin-top: 15px;
@@ -120,52 +112,52 @@
 /* portfolio desktop*/ 
 @media screen and (min-width:768px){
     .ilustUno{
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
         padding-left: 60px;
     }
     .ilustDos{
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
         padding-left: 60px;
     }
 
     .ilustTres{
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
     }
 
     .collageUno{
         width: 400px;
-        height: 400px;
+        height: 540px;
         padding-left: 60px;
     }
     .collageDos{
-        width: 400px;
-        height: 400px;
+        width: 460px;
+        height: 540px;
         padding-left: 60px;
     }
 
     .collageTres{
-        width: 400px;
-        height: 400px;
+        width: 450px;
+        height: 540px;
     }
 
     .brandUno{
         width: 400px;
-        height: 400px;
+        height: 480;
         padding-left: 60px;
     }
     .brandDos{
         width: 400px;
-        height: 400px;
-        margin-bottom: 45px;
+
         padding-left: 60px;
     }
 
     .brandTres{
-        width: 400px;
-        height: 400px;
+        width: 340px;
+        height: 408px;
+        margin-bottom: 30px;
     }
 
     .tituloIlustracion{
