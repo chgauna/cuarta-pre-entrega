@@ -7,8 +7,9 @@
 }
 
 .infoContacto{
-    height: 400px;
-    margin-left: 80px;
+    width: 360px;
+    height: 380px;
+    margin-left: 40px;
 }
 .infoContacto p{
     margin-top: 10px;
@@ -16,8 +17,9 @@
 }
 
 .formularioContacto{
+    width: 360px;
     height: 350px;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 .tituloCorreo{
@@ -99,6 +101,18 @@ form button:hover{
     }
 
     .infoContacto{
-        height: 380px;
+        height: 325px;
+    }
+
+    .formularioContacto{
+        height: 325px;
+    }
+
+    .tituloRedes{
+        margin-top: 10px;  
+    }
+
+    .redUno img{
+        margin-top: 5px;
     }
 }

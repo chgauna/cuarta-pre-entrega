@@ -399,16 +399,18 @@ nav {
   height: 30vh; }
 
 .infoContacto {
-  height: 400px;
-  margin-left: 80px; }
+  width: 360px;
+  height: 380px;
+  margin-left: 40px; }
 
 .infoContacto p {
   margin-top: 10px;
   color: #213A40; }
 
 .formularioContacto {
+  width: 360px;
   height: 350px;
-  margin-left: 80px; }
+  margin-left: 40px; }
 
 .tituloCorreo {
   font-family: 'Barlow', sans-serif;
@@ -479,4 +481,38 @@ form button:hover {
     width: 100%;
     height: 100vh; }
   .infoContacto {
-    height: 380px; } }
+    height: 325px; }
+  .formularioContacto {
+    height: 325px; }
+  .tituloRedes {
+    margin-top: 10px; }
+  .redUno img {
+    margin-top: 5px; } }
+
+/* estilos footer */
+.contenedorFooter {
+  display: flex;
+  justify-content: center;
+  background-color: #213A40; }
+
+.seccionFooter {
+  padding: 10px; }
+
+.iconoInstagram img {
+  width: 25px;
+  height: 25px;
+  margin-left: 25px;
+  margin-right: 15px; }
+
+.iconoBehance img {
+  width: 25px;
+  height: 25px; }
+
+.derechos {
+  margin-top: 10px; }
+
+footer section p {
+  color: #D98859; }
+
+.redesFooter {
+  display: flex; }
