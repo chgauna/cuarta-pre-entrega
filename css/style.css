@@ -212,9 +212,10 @@ nav {
 
 /*mobile first*/
 .imagenHome {
-  background-color: #BF3056;
   width: 100%;
-  height: 30vh; }
+  height: 30vh;
+  background-image: url(https://images.pexels.com/photos/3109816/pexels-photo-3109816.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover; }
 
 .tituloHome {
   font-family: 'Barlow', sans-serif;
@@ -251,7 +252,6 @@ nav {
 /* responsive desktop*/
 @media screen and (min-width: 768px) {
   .imagenHome {
-    background-color: #BF3056;
     width: 100%;
     height: 100vh;
     margin-right: 0; }
@@ -273,9 +273,10 @@ nav {
     margin-top: 25px; } }
 
 .imagenSobreMi {
-  background-color: #0097a7;
   width: 100%;
-  height: 30vh; }
+  height: 30vh;
+  background-image: url(https://images.pexels.com/photos/3844788/pexels-photo-3844788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover; }
 
 .tituloSobreMi {
   font-family: 'Barlow', sans-serif;
@@ -334,14 +335,16 @@ nav {
 
 /*servicios mobile first*/
 .imagenDiseño {
+  background-image: url(https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
   width: 100%;
-  height: 200px;
-  background-color: #BF3056; }
+  height: 200px; }
 
 .imagenDesarrollo {
+  background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
   width: 100%;
-  height: 200px;
-  background-color: #0097a7; }
+  height: 200px; }
 
 .infoDiseño {
   height: 300px; }
@@ -408,7 +411,6 @@ nav {
 /*servicios responsive*/
 @media screen and (min-width: 768px) {
   .imagenDiseño {
-    background-color: #BF3056;
     height: 300px;
     width: 100%;
     max-width: 600px;
@@ -418,7 +420,6 @@ nav {
     margin-bottom: 50px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); }
   .imagenDesarrollo {
-    background-color: #0097a7;
     height: 300px;
     width: 100%;
     max-width: 600px;
@@ -430,7 +431,8 @@ nav {
 
 /* contacto mobile first*/
 .imagenContacto {
-  background-color: #BF3056;
+  background-image: url(https://images.pexels.com/photos/4585185/pexels-photo-4585185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
   width: 100%;
   height: 30vh; }
 

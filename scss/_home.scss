@@ -1,9 +1,10 @@
 /*mobile first*/
 
 .imagenHome{
-    background-color: $rosa;
     width: 100%;
     height: 30vh;
+    background-image: url(https://images.pexels.com/photos/3109816/pexels-photo-3109816.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size:cover;
 }
 
 .tituloHome{
@@ -45,7 +46,6 @@
 
 @media screen and (min-width:768px){
     .imagenHome{
-        background-color: $rosa;
         width: 100%;
         height: 100vh;
         margin-right: 0;
