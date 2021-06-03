@@ -26,15 +26,15 @@
     color: $rosa;
     font-size: 2.2rem;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .textoDiseño{
     font-family: 'Roboto', sans-serif;
-    width: 300px;
-    margin-left: 100px;
+    width: 280px;
+    margin-left: 30px;
     margin-top: 30px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: $azul;
 }
 
@@ -43,13 +43,13 @@
     color: $celeste;
     font-size: 2.2rem;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .botonDiseño{
     width: 100px;
     height: 40px;
-    margin-left: 100px;
+    margin-left: 30px;
     margin-top: 25px;
     background-color: $celeste;
     margin-bottom: 50px;
@@ -67,7 +67,7 @@
 .botonDesarrollo{
     width: 100px;
     height: 40px;
-    margin-left: 100px;
+    margin-left: 30px;
     margin-top: 25px;
     background-color: $rosa;
     margin-bottom: 50px;
@@ -108,5 +108,6 @@
 
     .textoDiseño{
         width: 400px;
+        font-size: 1.2rem;
     }
 }
