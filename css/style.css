@@ -453,16 +453,16 @@ nav {
 .infoContacto {
   width: 360px;
   height: 380px;
-  margin-left: 40px; }
+  margin-left: 20px; }
 
 .infoContacto p {
   margin-top: 10px;
   color: #213A40; }
 
 .formularioContacto {
-  width: 360px;
+  width: 330px;
   height: 350px;
-  margin-left: 40px; }
+  margin-left: 20px; }
 
 .tituloCorreo {
   font-family: 'Barlow', sans-serif;
@@ -480,7 +480,7 @@ nav {
   font-family: 'Barlow', sans-serif;
   color: #0097a7;
   font-size: 1.4rem;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 15px; }
 
 .redUno img {
@@ -527,15 +527,19 @@ form button:hover {
   width: 150px;
   height: 150px; }
 
+form div {
+  margin-bottom: 5px; }
+
 /*contacto responsive*/
 @media screen and (min-width: 768px) {
   .imagenContacto {
     width: 100%;
     height: 100vh; }
   .infoContacto {
-    height: 325px; }
+    height: 50vh; }
   .formularioContacto {
-    height: 325px; }
+    height: 50vh;
+    width: 360px; }
   .tituloRedes {
     margin-top: 10px; }
   .redUno img {
