@@ -123,7 +123,7 @@ nav {
 
 /* grilla sobre mi mobile first*/
 .contenedorSobreMi {
-  height: 100vh;
+  height: 750px;
   display: grid;
   grid-template-areas: "imagenSobreMi" "infoSobreMi"; }
 
